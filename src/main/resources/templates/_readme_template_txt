@@ -1,0 +1,14 @@
+Bug Id: {ROOT_BUG_ID}
+
+Bug Extract: {ROOT_DESCRIPTION}
+
+----- Objects with their last versions -----
+Modules                             Revision
+
+
+
+
+
+Note - Refer to Installation Guide (section - Patching Procedures) to apply the hot-fix
+
+**** Please note to the following dependencies ****

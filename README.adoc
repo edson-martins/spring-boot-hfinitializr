@@ -1,0 +1,50 @@
+image:https://github.com/edson-martins/spring-boot-hfinitializr/actions/workflows/maven.yml/badge.svg[Java CI with Maven]
+
+---
+
+++++
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-11+-informational?style=plastic&logo=java&logoColor=white&color=red">
+  <img src="https://img.shields.io/badge/SpringBoot-2.4.5-informational?style=plastic&logo=spring&logoColor=white&color=6DB340">
+  <img src="https://img.shields.io/badge/SpringMVC-2.4.5-informational?style=plastic&logo=spring&logoColor=white&color=6DB340">
+  <img src="https://img.shields.io/badge/MapStruct-1.4.2-informational?style=plastic&logo=git&logoColor=white&color=EC912D">
+  <img src="https://img.shields.io/node/v/npm?style=plastic">
+  <img src="https://img.shields.io/npm/v/npm?style=plastic">
+  <img src="https://img.shields.io/badge/Heroku-informational?style=plastic&logo=heroku&logoColor=white&color=79589F">
+</p>
+++++
+
+
+== Spring Boot HFInitializr
+Spring Boot HFInitializr is a Java 11+, Spring Boot (version 2.4.5) application used to generate a zip archive file structured as simple fix or a bundle of the hotfix.
+
+A **hotfix** or **quick-fix** engineering update is a single, cumulative package that includes information (often in the form of one or more files) that is used to address a problem in a software product (i.e., a software bug). 
+
+**Spring Boot HFInitializr** is a bootstrap tool used to generate a zip archive with a hotfix structure. You are free to use the structure or modify properly accord your necessity.
+
+=== Browser compatibility
+
+[options="header,footer,autowidth"]
+|===
+|# | Browser | Tested | O.S | Obs.
+|1 | image:https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png[Firefox,40,40] | Yes | MacOS, Win 10 | 
+|3 | image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/1024px-Opera_2015_icon.svg.png[Opera,40,40] | Yes | MacOS, Win 10 | 
+|5 | image:https://www.google.com/chrome/static/images/chrome-logo.svg[Chrome,40,40] | Yes | MacOS, Win 10 |
+|6 | image:https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4nqTh[IE,55,50] | Yes | Win 10 | SCRIPT5009: 'fetch' is undefined
+|===
+
+=== Architecture
+image:https://github.com/edson-martins/spring-boot-hfinitializr/blob/main/doc/img/hfinitializr.png[HFInitializr Architecture]
+
+=== Instalation
+
+[source,console]
+----
+ $ git clone git@github.com:edson-martins/spring-boot-hfinitializr.git
+ $ cd spring-boot-hfinitializr
+ $ mvn spring-boot:run
+ ...
+ open the link http://localhost:8080
+----
+
+
