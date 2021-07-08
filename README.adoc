@@ -30,7 +30,7 @@ A **hotfix** or **quick-fix** engineering update is a single, cumulative package
 |1 | image:https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png[Firefox,40,40] | Yes | MacOS, Win 10 | 
 |3 | image:https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Opera_2015_icon.svg/1024px-Opera_2015_icon.svg.png[Opera,40,40] | Yes | MacOS, Win 10 | 
 |5 | image:https://www.google.com/chrome/static/images/chrome-logo.svg[Chrome,40,40] | Yes | MacOS, Win 10 |
-|6 | image:https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4nqTh[IE,55,50] | Yes | Win 10 | SCRIPT5009: 'fetch' is undefined
+|6 | image:https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4nqTh[IE,55,50] | Yes | Win 10 |
 |===
 
 === Architecture
